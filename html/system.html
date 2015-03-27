@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>System Viewer</title>
+		<script type="text/javascript" src="../libs/jquery.min.js"></script>
+		<script type="text/javascript" src="../libs/window.js"></script>
+        <link href="../css/fonticons.css" type="text/css" rel="stylesheet" />
+        <link href="../css/window.css" type="text/css" rel="stylesheet" />
+        <link href="../css/system.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body class="initialized">
+  	<div class="CHUI-head">
+    	<div class="CHUI-dragbar">System Viewer</div>
+    	<div class="CHUI-controls"><a class="CHUI-minimize">_</a><a class="CHUI-maximize icon-browser4"></a><a class="CHUI-close icon-cancel7"></a></div>
+    </div>
+    <div class="CHUI-body">
+    	<div class="system-category-title">CPU</div>
+			<div class="system-section">
+				<div class="system-cpu-pool"></div>
+				<div class="system-info-row"><span>Model name:</span><span id="modelName"></span></div>
+				<div class="system-info-row"><span>Architecture:</span><span id="archName"></span></div>
+				<div class="system-info-row"><span>Processors:</span><span id="numOfProcessors"></span></div>
+				<div class="system-info-row"><span>Features:</span><span id="features"></span></div>
+			</div>
+      <div class="system-category-title">Storage</div>
+			<div class="system-section"></div>
+      <div class="system-category-title">System</div>
+			<div class="system-section">
+			  <div class="system-vertical-section">
+          <div class="system-info-row"><span>Operation System:</span><span id="operatingSystem"></span></div>
+          <div class="system-info-row"><span>Platform:</span><span id="platform"></span></div>
+          <div class="system-info-row"><span>Chrome Version:</span><span id="chromeVersion"></span></div>
+          <div class="system-info-row"><span>Internet:</span><span id="internet"></span></div>
+          <div class="system-info-row"><span>Battery Status:</span><span id="batteryStatus"></span></div>
+          <div class="system-info-row"><span>Battery Level:</span><span id="batteryLevel"></span></div>
+				</div>
+        <div class="system-vertical-section">
+          <div class="system-info-row"><span>Primary Language:</span><span id="primaryLanguage"></span></div>
+          <div class="system-info-row"><span>All Languages:</span><span id="allLanguages"></span></div>
+          <div class="system-info-row"><span>Plugins:</span><span id="plugins"></span></div>
+         </div>
+			</div>
+      <div class="system-category-title">Memory</div>
+			<div class="system-section">
+			  <div class="system-memory-info">Capacity: <span id="memoryCapacity"></span></div>
+			  <div class="system-memory"><div class="ani10"></div></div>
+			</div>
+      <div class="system-category-title">Display</div>
+			<div class="system-section">
+			  <div class="system-title">Primary Display</div>
+			  <div id="primaryDisplay"></div>
+			  <div class="system-title">Other Displays</div>
+			  <div id="otherDisplays"></div>
+			</div>
+      <div class="system-category-title">Network</div>
+			<div class="system-section">
+			  <div id="network"></div>
+			</div>
+    </div>
+	</body>
+</html>

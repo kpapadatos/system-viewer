@@ -1,0 +1,31 @@
+{
+   "icons": {
+      "128": "wr_logo_128.png",
+      "48": "wr_logo_48.png",
+      "16": "wr_logo_16.png"
+   },
+   "app":{
+      "background": {
+          "scripts": [ "cynthia.js" ]
+      }
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "24.0.0.0",
+   "name": "System Viewer",
+   "description": "A useful tool to inspect system resources using Chrome's system.* APIs.",
+   "offline_enabled": true,
+   "version": "1.2",
+   "permissions": [
+       "chrome://favicon/",
+       "idle",
+       "power",
+       "storage",
+       "system.cpu",
+       "system.display",
+       "system.memory",
+       "system.storage",
+       "system.cpu",
+       "system.display",
+       "system.network"
+   ]
+}
