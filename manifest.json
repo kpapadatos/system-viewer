@@ -6,15 +6,15 @@
    },
    "app":{
       "background": {
-          "scripts": [ "cynthia.js" ]
+          "scripts": [ "main.js" ]
       }
    },
    "manifest_version": 2,
    "minimum_chrome_version": "24.0.0.0",
    "name": "System Viewer",
-   "description": "A useful tool to inspect system resources using Chrome's system.* APIs.",
+   "description": "A useful tool to inspect system resources using Chrome's system APIs.",
    "offline_enabled": true,
-   "version": "1.2",
+   "version": "1.3",
    "permissions": [
        "chrome://favicon/",
        "idle",

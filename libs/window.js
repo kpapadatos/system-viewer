@@ -1,5 +1,4 @@
-// Cynthia Window library
-
+// Window initialization
 $( document ).ready( function(){
 	
 	// Close App
